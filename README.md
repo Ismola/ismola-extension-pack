@@ -29,8 +29,10 @@ Este **Extension Pack** contiene las siguientes extensiones para mejorar tu fluj
 - 🌱 **[Dotenv](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)**  
   Resalta y autocompleta los archivos `.env`, facilitando la edición de variables de entorno y mejorando la experiencia de desarrollo con configuraciones sensibles.
 
-Este pack está diseñado para optimizar tu productividad y mejorar la calidad de tu código en cada proyecto.
+- 🤖 **[Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)**  
+  Proporciona recomendaciones de código basadas en inteligencia artificial, mejorando la eficiencia y precisión del desarrollo.
 
+Este pack está diseñado para optimizar tu productividad y mejorar la calidad de tu código en cada proyecto.
 
 ## 🚀 Instalación
 

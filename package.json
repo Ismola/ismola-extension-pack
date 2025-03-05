@@ -7,7 +7,7 @@
     },
     "displayName": "Ismola Extension Pack",
     "description": "Un pack con las mejores extensiones para mejorar tu productividad y experiencia de desarrollo en Visual Studio Code. ¡Optimiza tu flujo de trabajo y trabaja de manera más eficiente!",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "ismola",
     "engines": {
         "vscode": "^1.80.0"
@@ -22,6 +22,7 @@
         "usernamehw.errorlens",
         "DavidAnson.vscode-markdownlint",
         "eamodio.gitlens",
-        "mikestead.dotenv"
+        "mikestead.dotenv",
+        "VisualStudioExptTeam.vscodeintellicode"
     ]
 }
