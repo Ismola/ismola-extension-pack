@@ -6,14 +6,31 @@
 
 ## 📦 ¿Qué incluye?
 
-Este pack contiene las siguientes extensiones:
+Este **Extension Pack** contiene las siguientes extensiones para mejorar tu flujo de trabajo en VSCode:
 
-- 🎨 **[Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)** → Colorea la indentación para mejor legibilidad.
-- ✅ **[Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)** → Facilita el uso de commits semánticos.
-- 🔎 **[Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)** → Muestra errores y advertencias en línea.
-- 📝 **[Markdown Lint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)** → Valida y corrige archivos Markdown.
-- 📌 **[Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)** → Organiza y visualiza `TODO` en tu código.
-- 🔍 **[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)** → Potente herramienta para trabajar con Git.
+- 🎨 **[Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)**  
+  Colorea la indentación de tu código para mejorar la legibilidad y facilitar la navegación.
+
+- ✅ **[Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)**  
+  Facilita el uso de convenciones de commits semánticos, mejorando la claridad y la trazabilidad del historial de tu código.
+
+- 🔎 **[Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)**  
+  Muestra errores y advertencias directamente en línea dentro del editor, mejorando la detección de problemas en tiempo real.
+
+- 📝 **[Markdown Lint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)**  
+  Valida y corrige archivos Markdown, asegurando la calidad y consistencia del contenido.
+
+- 📌 **[Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)**  
+  Organiza y visualiza todos los `TODO` en tu código de manera eficiente, para mantener un seguimiento claro de tareas pendientes.
+
+- 🔍 **[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)**  
+  Potente herramienta para trabajar con Git, proporcionando un análisis detallado de tus repositorios, historial de commits y mucho más.
+
+- 🌱 **[Dotenv](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)**  
+  Resalta y autocompleta los archivos `.env`, facilitando la edición de variables de entorno y mejorando la experiencia de desarrollo con configuraciones sensibles.
+
+Este pack está diseñado para optimizar tu productividad y mejorar la calidad de tu código en cada proyecto.
+
 
 ## 🚀 Instalación
 
