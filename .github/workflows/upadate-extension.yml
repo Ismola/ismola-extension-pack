@@ -17,7 +17,7 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm ci
+        run: npm i
 
       - name: Install vsce
         run: npm install -g vsce
