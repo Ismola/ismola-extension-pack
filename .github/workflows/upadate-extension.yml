@@ -3,8 +3,9 @@ name: Publish Extension Pack
 on:
   push:
     branches:
-      - main
-    # Puedes agregar más ramas si quieres que funcione en ellas también.
+      - main  # Puedes ajustar la rama según tu flujo de trabajo
+    tags:
+      - 'v*'  # Si prefieres que se publique solo cuando se cree un tag
 
 jobs:
   publish:
@@ -14,25 +15,30 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Set up Node.js
+    - name: Setup Node.js
       uses: actions/setup-node@v2
       with:
         node-version: '14'
 
-    - name: Install dependencies
+    - name: Install vsce
       run: npm install -g vsce
+
+    - name: Set up Git for versioning
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
 
     - name: Bump version and create a new tag
       run: |
-        vsce version patch  # Puedes cambiar `patch` a `minor` o `major` según el tipo de actualización
-        git config user.name "GitHub Actions"
-        git config user.email "actions@github.com"
+        vsce version patch  # Cambiar a `minor` o `major` si es necesario
         git commit -am "Bump version"
         git tag v$(node -p -e "require('./package.json').version")
         git push --tags
 
-    - name: Publish to VS Code Marketplace
+    - name: Package Extension
+      run: vsce package
+
+    - name: Publish Extension to VS Code Marketplace
       env:
-        VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
-      run: |
-        vsce publish
+        VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}  # Usa el token de tu secreto en GitHub
+      run: vsce publish
