@@ -1,0 +1,38 @@
+name: Publish Extension Pack
+
+on:
+  push:
+    branches:
+      - main
+    # Puedes agregar más ramas si quieres que funcione en ellas también.
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Install dependencies
+      run: npm install -g vsce
+
+    - name: Bump version and create a new tag
+      run: |
+        vsce version patch  # Puedes cambiar `patch` a `minor` o `major` según el tipo de actualización
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        git commit -am "Bump version"
+        git tag v$(node -p -e "require('./package.json').version")
+        git push --tags
+
+    - name: Publish to VS Code Marketplace
+      env:
+        VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
+      run: |
+        vsce publish
