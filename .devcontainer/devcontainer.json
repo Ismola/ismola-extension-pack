@@ -12,7 +12,7 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm install -g @vscode/vsce",
+	"postCreateCommand": "npm install -g @vscode/vsce && git clone --depth=1 https://github.com/Ismola/personal-copilot-instructions tmp-copilot-instructions && mkdir -p .github && rm -rf .github/instructions && mv tmp-copilot-instructions/.github/instructions .github/ && rm -rf tmp-copilot-instructions",
 	"customizations": {
 		"vscode": {
 			"extensions": [
