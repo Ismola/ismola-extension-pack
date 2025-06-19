@@ -32,6 +32,9 @@ Este **Extension Pack** contiene las siguientes extensiones para mejorar tu fluj
 - 🤖 **[Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)**  
   Proporciona recomendaciones de código basadas en inteligencia artificial, mejorando la eficiencia y precisión del desarrollo.
 
+- 🔗 **[GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)**
+  Asistente de codificación basado en IA que sugiere líneas de código y funciones completas, acelerando el proceso de desarrollo.
+
 Este pack está diseñado para optimizar tu productividad y mejorar la calidad de tu código en cada proyecto.
 
 ## 🚀 Instalación
