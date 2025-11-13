@@ -8,11 +8,14 @@
 
 Este **Extension Pack** contiene las siguientes extensiones para mejorar tu flujo de trabajo en VSCode:
 
+- ✅ **[Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)**  
+  Facilita el uso de convenciones de commits semánticos, mejorando la claridad y la trazabilidad del historial de tu código.
+
 - 🎨 **[Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)**  
   Colorea la indentación de tu código para mejorar la legibilidad y facilitar la navegación.
 
-- ✅ **[Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)**  
-  Facilita el uso de convenciones de commits semánticos, mejorando la claridad y la trazabilidad del historial de tu código.
+- 📌 **[Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)**  
+  Organiza y visualiza todos los `TODO` en tu código de manera eficiente, para mantener un seguimiento claro de tareas pendientes.
 
 - 🔎 **[Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)**  
   Muestra errores y advertencias directamente en línea dentro del editor, mejorando la detección de problemas en tiempo real.
@@ -20,20 +23,20 @@ Este **Extension Pack** contiene las siguientes extensiones para mejorar tu fluj
 - 📝 **[Markdown Lint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)**  
   Valida y corrige archivos Markdown, asegurando la calidad y consistencia del contenido.
 
-- 📌 **[Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)**  
-  Organiza y visualiza todos los `TODO` en tu código de manera eficiente, para mantener un seguimiento claro de tareas pendientes.
-
 - 🔍 **[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)**  
   Potente herramienta para trabajar con Git, proporcionando un análisis detallado de tus repositorios, historial de commits y mucho más.
 
-- 🌱 **[Dotenv](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)**  
-  Resalta y autocompleta los archivos `.env`, facilitando la edición de variables de entorno y mejorando la experiencia de desarrollo con configuraciones sensibles.
+- 🔧 **[.ENV File Support](https://marketplace.visualstudio.com/items?itemName=IronGeek.vscode-env)**  
+  Proporciona soporte completo para archivos `.env`, incluyendo resaltado de sintaxis y validación.
 
 - 🤖 **[Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)**  
   Proporciona recomendaciones de código basadas en inteligencia artificial, mejorando la eficiencia y precisión del desarrollo.
 
-- 🔗 **[GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)**
+- 🔗 **[GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)**  
   Asistente de codificación basado en IA que sugiere líneas de código y funciones completas, acelerando el proceso de desarrollo.
+
+- 🌱 **[DotENV](https://marketplace.visualstudio.com/items?itemName=dotenv.dotenv-vscode)**  
+  Resalta y autocompleta los archivos `.env`, facilitando la edición de variables de entorno y mejorando la experiencia de desarrollo con configuraciones sensibles.
 
 Este pack está diseñado para optimizar tu productividad y mejorar la calidad de tu código en cada proyecto.
 
