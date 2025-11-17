@@ -29,9 +29,6 @@ Este **Extension Pack** contiene las siguientes extensiones para mejorar tu fluj
 - 🔧 **[.ENV File Support](https://marketplace.visualstudio.com/items?itemName=IronGeek.vscode-env)**  
   Proporciona soporte completo para archivos `.env`, incluyendo resaltado de sintaxis y validación.
 
-- 🤖 **[Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)**  
-  Proporciona recomendaciones de código basadas en inteligencia artificial, mejorando la eficiencia y precisión del desarrollo.
-
 - 🔗 **[GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)**  
   Asistente de codificación basado en IA que sugiere líneas de código y funciones completas, acelerando el proceso de desarrollo.
 
