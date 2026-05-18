@@ -29,7 +29,7 @@ Este **Extension Pack** contiene las siguientes extensiones para mejorar tu fluj
 - 🔧 **[.ENV File Support](https://marketplace.visualstudio.com/items?itemName=IronGeek.vscode-env)**  
   Proporciona soporte completo para archivos `.env`, incluyendo resaltado de sintaxis y validación.
 
-- 🔗 **[GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)**  
+- 🔗 **[GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)**  
   Asistente de codificación basado en IA que sugiere líneas de código y funciones completas, acelerando el proceso de desarrollo.
 
 - 🌱 **[DotENV](https://marketplace.visualstudio.com/items?itemName=dotenv.dotenv-vscode)**  
