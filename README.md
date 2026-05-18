@@ -42,6 +42,8 @@ Este pack está diseñado para optimizar tu productividad y mejorar la calidad d
 
 ## 🚀 Instalación
 
+Instálalo directamente desde Visual Studio Marketplace: [Ismola Extension Pack](https://marketplace.visualstudio.com/items?itemName=ismola.ismola-extension-pack)
+
 1. Abre **Visual Studio Code**.
 2. Ve a la sección de **Extensiones** (`Ctrl+Shift+X`).
 3. Busca **"Ismola Extension Pack"**.
