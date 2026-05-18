@@ -35,6 +35,9 @@ Este **Extension Pack** contiene las siguientes extensiones para mejorar tu fluj
 - 🌱 **[DotENV](https://marketplace.visualstudio.com/items?itemName=dotenv.dotenv-vscode)**  
   Resalta y autocompleta los archivos `.env`, facilitando la edición de variables de entorno y mejorando la experiencia de desarrollo con configuraciones sensibles.
 
+- 🛡 **[Tailscale](https://marketplace.visualstudio.com/items?itemName=tailscale.vscode-tailscale)**  
+  Extensión para integrar Tailscale en tu flujo de trabajo, permitiéndote gestionar tus conexiones seguras y privadas directamente desde VS Code.
+
 Este pack está diseñado para optimizar tu productividad y mejorar la calidad de tu código en cada proyecto.
 
 ## 🚀 Instalación
